@@ -552,7 +552,7 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="Assembling $(InputName)..."
-						CommandLine="$(ProjectDir)\..\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
+						CommandLine="$(SolutionDir)\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
 						Outputs="$(OutDir)/$(InputName).obj"
 					/>
 				</FileConfiguration>
@@ -562,7 +562,7 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="Assembling $(InputName)..."
-						CommandLine="$(ProjectDir)\..\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
+						CommandLine="$(SolutionDir)\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
 						Outputs="$(OutDir)/$(InputName).obj"
 					/>
 				</FileConfiguration>
@@ -576,7 +576,7 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="Assembling $(InputName)..."
-						CommandLine="$(ProjectDir)\..\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
+						CommandLine="$(SolutionDir)\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
 						Outputs="$(OutDir)/$(InputName).obj"
 					/>
 				</FileConfiguration>
@@ -586,7 +586,7 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="Assembling $(InputName)..."
-						CommandLine="$(ProjectDir)\..\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
+						CommandLine="$(SolutionDir)\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
 						Outputs="$(OutDir)/$(InputName).obj"
 					/>
 				</FileConfiguration>
@@ -600,7 +600,7 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="Assembling $(InputName)..."
-						CommandLine="$(ProjectDir)\..\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
+						CommandLine="$(SolutionDir)\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
 						Outputs="$(OutDir)/$(InputName).obj"
 					/>
 				</FileConfiguration>
@@ -610,7 +610,7 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="Assembling $(InputName)..."
-						CommandLine="$(ProjectDir)\..\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
+						CommandLine="$(SolutionDir)\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
 						Outputs="$(OutDir)/$(InputName).obj"
 					/>
 				</FileConfiguration>
@@ -624,7 +624,7 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="Assembling $(InputName)..."
-						CommandLine="$(ProjectDir)\..\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
+						CommandLine="$(SolutionDir)\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
 						Outputs="$(OutDir)/$(InputName).obj"
 					/>
 				</FileConfiguration>
@@ -634,7 +634,7 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="Assembling $(InputName)..."
-						CommandLine="$(ProjectDir)\..\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
+						CommandLine="$(SolutionDir)\..\..\Tools\nasm\nasmw  -f win32 -i  $(InputDir) -DWIN32  $(InputDir)$(InputName).nas&#x0D;&#x0A;move $(InputDir)$(InputName).obj  &quot;$(OutDir)&quot;&#x0D;&#x0A;"
 						Outputs="$(OutDir)/$(InputName).obj"
 					/>
 				</FileConfiguration>
