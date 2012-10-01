@@ -895,8 +895,10 @@ lame_get_lametag_frame(lame_global_flags const *gfp, unsigned char *buffer, size
     if (gfc->Class_ID != LAME_ID) {
         return 0;
     }
-    if (gfc->VBR_seek_table.pos <= 0) {
-        return 0;
+    if (gfp->VBR != vbr_off) {
+        if (gfc->VBR_seek_table.pos <= 0) {
+            return 0;
+        }
     }
     if (size < gfc->VBR_seek_table.TotalFrameSize) {
         return gfc->VBR_seek_table.TotalFrameSize;
